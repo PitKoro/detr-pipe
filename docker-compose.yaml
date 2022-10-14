@@ -7,6 +7,7 @@ services:
     volumes:
       - ./main.ipynb:/app/main.ipynb
       - ./checkpoints/:/app/checkpoints
+      - ./img/:/app/img
     deploy:
       resources:
         reservations:

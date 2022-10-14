@@ -9,7 +9,7 @@ RUN pip install tqdm jupyterlab ipywidgets
 
 WORKDIR /app
 
-COPY ./img/ /app/img/
+# COPY ./img/ /app/img/
 
 RUN pip install -q pytorch-lightning==1.6.0
 RUN pip install -q transformers timm pycocotools
