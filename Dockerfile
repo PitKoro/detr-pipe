@@ -13,7 +13,7 @@ WORKDIR /app
 
 RUN pip install -q pytorch-lightning==1.6.0
 RUN pip install -q transformers timm pycocotools
-RUN pip install onnx onnxruntime
+RUN pip install onnx onnxruntime-gpu
 
 EXPOSE 8888
 
