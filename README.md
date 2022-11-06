@@ -1,1 +1,3 @@
-# pytorch-lightning-to-onnx
+# DETR
+
+https://github.com/facebookresearch/detr
